@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JetPack练习</string>
+    <string name="languages">中文</string>
+    <string name="string_format">姓名: %1$s  年龄: %2$s</string>
+</resources>

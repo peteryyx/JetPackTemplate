@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JetPackProject</string>
+    <string name="languages">Engligh</string>
+    <string name="string_format">name: %1$s age: %2$s</string>
+</resources>
