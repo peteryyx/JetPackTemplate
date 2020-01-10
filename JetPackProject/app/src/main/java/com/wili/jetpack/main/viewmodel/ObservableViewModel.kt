@@ -1,10 +1,10 @@
 package com.wili.jetpack.main.viewmodel
 
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.SavedStateHandle
 import com.wili.jetpack.main.model.UserInfo
 
-open class ObservableViewModel : ViewModel() {
+open class ObservableViewModel(stated: SavedStateHandle) : BaseViewModel(stated) {
 
     var userData: MutableLiveData<UserInfo> = MutableLiveData()
 

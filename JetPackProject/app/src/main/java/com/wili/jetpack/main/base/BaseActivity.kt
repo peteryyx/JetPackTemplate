@@ -3,7 +3,7 @@ package com.wili.jetpack.main.base
 import android.os.Bundle
 import com.qmuiteam.qmui.arch.QMUIActivity
 
-abstract class BaseActivity: QMUIActivity(),BaseView {
+abstract class BaseActivity : QMUIActivity(), BaseView {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,9 +42,10 @@ abstract class BaseActivity: QMUIActivity(),BaseView {
     }
 
     override fun initData(savedInstanceState: Bundle) {
+
     }
 
     override fun initObservable() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
     }
 }

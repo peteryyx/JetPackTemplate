@@ -1,7 +1,6 @@
 package com.wili.jetpack.main
 
 import android.app.Application
-import android.content.Context
 
 /**
  * @author EsonYu
@@ -9,7 +8,7 @@ import android.content.Context
 class BaseApp : Application() {
 
     companion object {
-        var context: Context? = null
+        var context: Application? = null
             private set
 
 
@@ -24,7 +23,7 @@ class BaseApp : Application() {
      * 初始化App全局Context
      */
     private fun initContext() {
-        context = applicationContext
+        context = applicationContext as Application
     }
 
 
