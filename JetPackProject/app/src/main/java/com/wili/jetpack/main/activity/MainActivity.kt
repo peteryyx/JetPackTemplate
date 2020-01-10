@@ -38,6 +38,5 @@ class MainActivity : BaseActivity() {
             showToast(it.name)
         })
 
-
     }
 }
